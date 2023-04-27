@@ -1,6 +1,6 @@
 import qrcode
 
-url = "https://translate.google.com/"
+url = "https://ichbinmeraj.github.io/farhood-qrcode/"
 
 qr = qrcode.QRCode(
     version=1,
@@ -11,5 +11,5 @@ qr = qrcode.QRCode(
 qr.add_data(url)
 qr.make(fit=True)
 image = qr.make_image(fill='black', back_color='white')
-image.save('qrcode3.png')
+image.save('qrcode4.png')
 
